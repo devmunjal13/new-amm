@@ -22,7 +22,6 @@ import ErrorBoundary from '../components/ErrorBoundary'
 import Menu from '../components/Menu'
 import Providers from '../Providers'
 import GlobalStyle from '../style/Global'
-import  router  from 'next/router'
 
 const EasterEgg = dynamic(() => import('components/EasterEgg'), { ssr: false })
 
